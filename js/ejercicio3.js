@@ -1,7 +1,8 @@
-let frase = prompt (confirm('Desea avanzar ?'));
-if (confirm = true ){
-    console.log();
-}
-else if (confirm = false ){
-    document.write (frase + '-')
+let frase=''
+
+while(confirm('¿Desea ingresar palabras?')){
+    let textoIngresado = prompt('Ingrese una palabra');
+    frase = frase +' - '+textoIngresado
+    console.log(textoIngresado)
+    console.log(frase)
 }
