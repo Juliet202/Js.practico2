@@ -1,6 +1,6 @@
 let edad = Number (prompt('Cual es tu edad ?')) ;
 if (edad >= 18 ) {
-    console.log ('Puedes conducir')
+    document.write ('Puedes conducir')
 } else { 
-    console.log ('No puedes conducir')
+    document.write ('No puedes conducir')
 }

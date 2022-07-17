@@ -1,5 +1,13 @@
 let fraseCompleta=''
-let frase = prompt('ingrese una palabra');
 
-if (fraseCompleta == '');
-    (fraseCompleta = fraseCompleta + cadena) ;
+do{
+   let textoIngresado = prompt('Ingrese una palabra');
+   if(textoIngresado==''){
+      fraseCompleta = fraseCompleta + textoIngresado;
+   }
+   else {
+      fraseCompleta= fraseCompleta + '-' + textoIngresado;
+   }
+}
+while (confirm('Quiere ingresar otra palabra?'));
+document.write (fraseCompleta);

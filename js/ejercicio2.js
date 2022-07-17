@@ -1,25 +1,26 @@
-let nota = Number(prompt('introducir nota'));
+let nota = Number(prompt('Introducir nota'));
+
 if (nota <= 2) {
-    console.log(' 0-2: muy deficiente');
+    document.write(' 0-2: Muy deficiente');
 }
 else if (nota <= 4) {
-    console.log(' 3-4: insuficiente');
+    document.write(' 3-4: Insuficiente');
 }
 else if (nota <= 6) {
-    console.log(' 5-6: suficiente');
+    document.write(' 5-6: Suficiente');
 }
 else if (nota === 7) {
-    console.log('7: bien');
+    document.write('7: Bien');
 }
 else if (nota <= 9) {
-    console.log('notable');
+    document.write('Notable');
 }
 else if (nota === 10) {
-    console.log('sobresaliente');
+    document.write('Sobresaliente');
 }
 else if ((nota >10) || (nota <0)) { 
-    console.log('numero erroneo');
+    document.write('Numero erroneo');
 }
 else if (nota !== Number ) {
-    console.log('introduzca un número válido');
+    document.write('Introduzca un número válido');
 }
