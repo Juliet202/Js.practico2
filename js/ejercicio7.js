@@ -1,10 +1,10 @@
-let numero = prompt('Indique un numero');
+let number = prompt('Indique un numero');
 
-if (Number(numero)==numero){
-    if(numero>0 && numero<=50){
-        let rep,i;
-    for(i=numero; i>=1; i--){
-    for(rep=i; rep>=1; rep--){
+if (Number(number)==number){
+    if(number>0 && number<=50){
+        let repeat,i;
+    for(i=number; i>=1; i--){
+    for(repeat=i; repeat>=1; repeat--){
         document.write(i);
     }
     document.write('<br>')
