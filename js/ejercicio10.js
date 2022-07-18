@@ -1,4 +1,4 @@
-
+/*hecho en clase*/
 let filas = parseInt(prompt('Ingrese el numero de filas'));
 let columnas = parseInt(prompt('Ingrese un numero de columnas'));
 let resultado = filas * columnas;

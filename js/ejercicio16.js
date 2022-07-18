@@ -1,10 +1,10 @@
 let texto = prompt("Introduce un Texto:");
 let letras = texto.length;
-let i;
+let a;
 let tex;
 let resultado = "";
-for (i = 0; i < letras; i++) {
-    tex = texto.charAt(i);   
+for (a = 0; a < letras; a++) {
+    tex = texto.charAt(a);   
     resultado = tex + resultado;
 }
 document.write(resultado);

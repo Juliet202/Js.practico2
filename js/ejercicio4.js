@@ -1,7 +1,8 @@
+/*incompleto*/
 let suma = 0
 
-while (confirm('ingresa otro numero ?')){
-    let numero = prompt('ingrese un numero');
+while (confirm('Ingrese un numero')){
+    let numero = prompt('Desea ingresar otro numero ?');
     Number (numero) == numero ;
     numero = Number ( numero);
     suma = suma + numero ;
